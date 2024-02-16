@@ -96,7 +96,7 @@
   left: 0;
   height: 8px;
   border-radius: 10px;
-  background: linear-gradient(to right, #474857, #5F4243); 
+  background: #00D2CC; 
 }
 @keyframes expandWidth {
   0% {

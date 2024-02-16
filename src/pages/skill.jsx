@@ -3,6 +3,10 @@ import html from "../image/i1.png";
 import css from "../image/css.png";
 import js from "../image/js.png";
 import sql from "../image/sql.png";
+import java from '../image/ja.png'
+import cpp from '../image/cpp.png'
+import python from '../image/py.png'
+import php from '../image/php.png'
 
 import "./page.css";
 const Home = () => {
@@ -32,7 +36,7 @@ const Home = () => {
                 <div className="flex ">
                   <img src={html} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
                     <div className="link1 absolute w-80  translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
@@ -42,7 +46,7 @@ const Home = () => {
                 <div className="flex mt-10">
                   <img src={css} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
                     <div className="link1 absolute w-[290px]  translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
@@ -52,7 +56,7 @@ const Home = () => {
                 <div className="flex mt-10">
                   <img src={js} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
                     <div className="link1 absolute w-[200px]  translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
@@ -62,7 +66,7 @@ const Home = () => {
                 <div className="flex mt-10">
                   <img src={sql} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
                     <div className="link1 absolute w-[120px] translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
@@ -72,40 +76,40 @@ const Home = () => {
               </div>
               <div className="translate-x-[650px]">
                 <div className="flex ">
-                  <img src={html} className="mr-10" alt="" />
+                  <img src={cpp} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
-                    <div className="link1 absolute w-80  translate-y-[-4px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
+                    <div className="link1 absolute w-[200px] translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
               </div> */}
                   </div>
                 </div>
-                <div className="flex mt-10">
-                  <img src={css} className="mr-10" alt="" />
+                <div className="flex mt-5">
+                  <img src={java} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
-                    <div className="link1 absolute w-[290px]  translate-y-[-4px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
+                    <div className="link1 absolute w-[180px]  translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
               </div> */}
                   </div>
                 </div>
-                <div className="flex mt-10">
-                  <img src={js} className="mr-10" alt="" />
+                <div className="flex mt-7">
+                  <img src={python} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
                     <div className="link1 absolute w-[200px]  translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
               </div> */}
                   </div>
                 </div>
-                <div className="flex mt-10">
-                  <img src={sql} className="mr-10" alt="" />
+                <div className="flex mt-12 translate-y-[10px]">
+                  <img src={php} className="mr-10" alt="" />
                   <div className="flex items-center">
-                    <div className="absolute w-[380px] h-2 bg-[#EAEEFF] rounded-[10px]" />
-                    <div className="link1 absolute w-[120px] translate-y-[-4px]" />
+                    <div className="absolute w-[380px] h-2 bg-[#908a8a] rounded-[10px]" />
+                    <div className="link1 absolute w-[20px] translate-y-[-4px]" />
                     {/* <div className="percent absolute right-[850px] animate-fill ">
               {count}%
               </div> */}
