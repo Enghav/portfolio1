@@ -1,0 +1,111 @@
+/* Add this CSS to your stylesheet */
+@keyframes colorChange {
+    0% {
+      color: #ff6347; /* Start color */
+    }
+    20% {
+      color: #ffd700; /* 20% of the animation, change to yellow */
+    }
+    40% {
+      color: #00ff00; /* 40% of the animation, change to green */
+    }
+    60% {
+      color: #0000ff; /* 60% of the animation, change to blue */
+    }
+    80% {
+      color: #800080; /* 80% of the animation, change to purple */
+    }
+    100% {
+      color: #ff6347; /* Back to start color */
+    }
+  }
+.image1{
+  filter: blur(10px);
+}
+/* page.css */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+}
+.animate-bounce {
+  animation: bounce 5s infinite; 
+}
+@keyframes spin {
+  0%, 100% {
+    transform: translatex(0);
+  }
+  50% {
+    transform: translatex(-20px);
+  }
+}
+.animate-spin{
+  animation: spin 5s infinite;
+}
+
+@keyframes ping {
+  0%, 100% {
+    transform: translatex(0);
+  }
+  50% {
+    transform: translatex(-15px);
+  }
+}
+.animate-ping{
+  animation: ping 5s infinite;
+}
+/* page.css */
+@keyframes earthquake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}
+.link1{
+  position: absolute;
+}
+.link1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 8px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #474857, #5F4243); 
+}
+@keyframes expandWidth {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.link1::after {
+  animation: expandWidth 5s ease-out forwards;
+}
+.link1{
+  position: absolute;
+}
+.link1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 8px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #474857, #5F4243); 
+}
+@keyframes expandWidth {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.link1::after {
+  animation: expandWidth 3s ease-out forwards;
+}
