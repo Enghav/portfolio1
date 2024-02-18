@@ -29,13 +29,12 @@ const Home = () => {
   }, [typedText, textToType]);
 
   return (
-    <div className="bg-[#1B1D2A] h-[679px] absolute translate-y-[50px] w-screen">
+    <div className="bg-[#010409] h-[679px] absolute translate-y-[50px] w-screen">
       <div className={`flex justify-between  text-white translate-y-[135px]`}>
-        <div className="translate-x-[200px] translate-y-[30px]">
+        <div className="link translate-x-[200px] translate-y-[30px]">
           <div
             style={{
-              fontSize: 48,
-              fontFamily: "Inconsolata",
+              fontSize:40,
               fontWeight: "700",
               wordWrap: "break-word",
               animation: "colorChange 10s infinite", // Applying the color change animation
@@ -47,10 +46,8 @@ const Home = () => {
           <div
             className=""
             style={{
-              color: "#00D2CC",
-              fontSize: 40,
-              fontFamily: "Inconsolata",
-              fontWeight: "700",
+              fontSize:40,
+              fontWeight: "600",
               wordWrap: "break-word",
             }}
           >
@@ -59,31 +56,29 @@ const Home = () => {
           <div
             className="animate-spin"
             style={{
-              width: 506,
+              fontSize:24,
+              width: 406,
               height: 182,
-              color: "#5DECBF",
-              fontSize: 24,
-              fontFamily: "Inconsolata",
-              fontWeight: "400",
+              fontWeight: "300",
               wordWrap: "break-word",
             }}
           >
-            <div className=" animate-ping  bg-gradient-to-r from-pink-400 to-slate-300 w-[430px] h-[2px] rounded-md"></div>
-            Comfort zones are the enemy of progress. <br />
-            By . GM
-            <Link to="/contact" className={``}>
+            <div className=" animate-ping  bg-gradient-to-r from-[#cf33e0] to-[#161b21] w-[430px] h-[2px] rounded-md"></div>
+           <div className="mt-4">Life is like a dick <br /> <li>Sometimes it's up</li> <li>Sometimes it's down</li></div>
+          {/* <div className=" mt-4 mb-4 text-[#00D2CC] font-bold">( ANDREW TATE )</div> */}
+            <Link to="" className={``}>
               <div
-                className="h-[50px] mt-5 border-2 cursor-pointer bg-gradient-to-r from-[#cf33e0] font-[Inconsolata] to-[#161b21] text-[#cfe3da] font-bold w-[150px] text-center rounded-md p-2 "
-                style={{ animation: "earthquake 0.05s infinite" }}
+                className=" hover:scale-110  h-[50px] mt-5 border-2 cursor-pointer bg-gradient-to-r from-[#cf33e0] to-[#161b21] text-[#cfe3da] font-bold w-[150px] text-center rounded-md p-2 "
+                style={{ animation: "earthquake 0.05s infinite ", }}
               >
-                Date Me
+                Date ?
               </div>
             </Link>
           </div>
         </div>
         <div>
           <div className="animate-bounce">
-            <span className="image1 absolute bg-gradient-to-r from-rose-500 to-sky-500 w-[475px] h-[475px]  rounded-full translate-x-[-210px] translate-y-[-10px]"></span>
+            <span className="image1 absolute bg-gradient-to-t from-[#cf33e0]  to-[#161b21] w-[475px] h-[475px]  rounded-full translate-x-[-210px] translate-y-[-10px]"></span>
             <img
               src={image}
               className={`className="w-[455px] h-[455px] rounded-full translate-x-[-200px] `}
